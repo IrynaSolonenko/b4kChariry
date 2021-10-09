@@ -90,7 +90,6 @@ main {
       p{
         @include h-info-flexible(#fff);
         letter-spacing: 0.05em;
-        //margin: 0 auto;
         padding-top: 30px;
         @extend %align-capitalize;
       }
