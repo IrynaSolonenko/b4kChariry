@@ -13,66 +13,101 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FBFBFB">
-        <div class="container-xxl">
-            <div class="left-part">
-                <div class="navbar-brand logo">
-                    <a href="index.html"><img src="images/b4k1.png"></a>
-                </div>
-                <div class="established">
-                    <span>
-                        Established 2020 San Francisco
-                        based Charity organisation</span>
-                </div>
-            </div>
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                Launch demo modal
-            </button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
+        <div class="container-xxl head">
+            <div class="header">
+                <div class="left-part">
+                    <div class="navbar-brand logo">
+                        <a href="index.html"><img src="images/b4k1.png"></a>
+                    </div>
+                    <div class="established">
+                        <span>
+                            Established 2020 San Francisco
+                            based Charity organisation</span>
                     </div>
                 </div>
+
+
+                <ul class="nav navbar-nav nav-pills menu">
+                    <li class="nav-item nav-li">
+                        <a class="nav-link nav-bot nav-col pb-3" aria-current="page" href="GetInvolved.html">get involved</a>
+                    </li>
+                    <li class="nav-item nav-li">
+                        <a class="nav-link nav-bot nav-col pb-3" href="#">impact a child</a>
+                    </li>
+                    <li class="nav-item nav-li">
+                        <a class="nav-link nav-bot nav-col pb-3" href="WaysToDonate.html">ways to donate</a>
+                    </li>
+                    <li class="nav-item nav-li">
+                        <a class="nav-link nav-bot nav-col pb-3" href="WhyUs.html">why US</a>
+                    </li>
+                    <li class="nav-item nav-li">
+                        <a class="nav-link nav-bot nav-col pb-3" href="ContactUs.html">contact us</a>
+                    </li>
+                </ul>
             </div>
-<!--            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--                <span class="navbar-toggler-icon"></span>-->
-<!--            </button>-->
-<!--            <div class="collapse navbar-collapse justify-content-end header-navigate" id="navbarToggleExternalContent">-->
-<!--                <ul class="nav navbar-nav nav-pills menu align-content-center align-items-center">-->
-<!--                    <li class="nav-item nav-li">-->
-<!--                        <a class="nav-link nav-bot nav-col pb-3" aria-current="page" href="GetInvolved.html">get involved</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item nav-li">-->
-<!--                        <a class="nav-link nav-bot nav-col pb-3" href="#">impact a child</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item nav-li">-->
-<!--                        <a class="nav-link nav-bot nav-col pb-3" href="WaysToDonate.html">ways to donate</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item nav-li">-->
-<!--                        <a class="nav-link nav-bot nav-col pb-3" href="WhyUs.html">why US</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item nav-li">-->
-<!--                        <a class="nav-link nav-bot nav-col pb-3" href="ContactUs.html">contact us</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </div>-->
+
+                <div class="modal-menu">
+                    <div class="modal fade" id="MenuModalToggle" aria-hidden="true" aria-labelledby="MenuModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <ul class="menu align-content-center align-items-center">
+                                        <li class="nav-item nav-li">
+                                            <a class="nav-link nav-bot nav-col pb-3" aria-current="page" href="GetInvolved.html">get involved</a>
+                                        </li>
+                                        <li class="nav-item nav-li">
+                                            <a class="nav-link nav-bot nav-col pb-3" href="#">impact a child</a>
+                                        </li>
+                                        <li class="nav-item nav-li">
+                                            <a class="nav-link nav-bot nav-col pb-3" href="WaysToDonate.html">ways to donate</a>
+                                        </li>
+                                        <li class="nav-item nav-li">
+                                            <a class="nav-link nav-bot nav-col pb-3" href="WhyUs.html">why US</a>
+                                        </li>
+                                        <li class="nav-item nav-li">
+                                            <a class="nav-link nav-bot nav-col pb-3" href="ContactUs.html">contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a data-bs-toggle="modal" href="#MenuModalToggle" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg></a>
+                </div>
+
+
+
+<!--                <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FBFBFB">-->
+<!--                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                    <span class="navbar-toggler-icon"></span>-->
+<!--                </button>-->
+<!--                <div class="collapse navbar-collapse justify-content-end header-navigate" id="navbarToggleExternalContent">-->
+<!--                    <ul class="nav navbar-nav nav-pills menu align-content-center align-items-center">-->
+<!--                        <li class="nav-item nav-li">-->
+<!--                            <a class="nav-link nav-bot nav-col pb-3" aria-current="page" href="GetInvolved.html">get involved</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item nav-li">-->
+<!--                            <a class="nav-link nav-bot nav-col pb-3" href="#">impact a child</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item nav-li">-->
+<!--                            <a class="nav-link nav-bot nav-col pb-3" href="WaysToDonate.html">ways to donate</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item nav-li">-->
+<!--                            <a class="nav-link nav-bot nav-col pb-3" href="WhyUs.html">why US</a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item nav-li">-->
+<!--                            <a class="nav-link nav-bot nav-col pb-3" href="ContactUs.html">contact us</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </nav>-->
+
         </div>
-    </nav>
 </header>
 
 <main>
@@ -239,12 +274,12 @@
                     <img src="images/fb.png">
 
                     <div class="modal-windows">
-                        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal fade" id="FormModalToggle" aria-hidden="true" aria-labelledby="FormModalToggleLabel" tabindex="-1">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content modal_cont">
                                     <div class="modal-body modal_b">
                                         <button type="button" class="btn-close button_close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        <h1 сlass="modal-title" id="exampleModalToggleLabel">Get Involved</h1>
+                                        <h1 сlass="modal-title" id="FormModalToggleLabel">Get Involved</h1>
                                         <p>will leave your data and our employee will contact you to  describe how to pay</p>
                                         <div class="info-form">
                                             <form action="#" method="POST" role="form">
@@ -264,7 +299,7 @@
                                                 </div>
                                                 <textarea name="text" placeholder="Message or comments"></textarea>
                                                 <div>
-                                                    <a href="#" type="submit" class="btn btn-primary my-button" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Send</a>
+                                                    <a href="#" type="submit" class="btn btn-primary my-button" data-bs-target="#FormModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Send</a>
                                                 </div>
                                                 </fieldset>
                                             </form>
@@ -274,22 +309,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal fade" id="FormModalToggle2" aria-hidden="true" aria-labelledby="FormModalToggleLabel2" tabindex="-1">
                             <div class="modal-dialog modal-dialog-centered modal-lg">
                                 <div class="modal-content modal_cont">
                                     <div class="modal-body modal_b">
                                         <button type="button" class="btn-close button_close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                        <h1 class="modal-title" id="exampleModalToggleLabel2">Successful dispatch</h1>
+                                        <h1 class="modal-title" id="FormModalToggleLabel2">Successful dispatch</h1>
                                         <p>will leave your data and our employee will contact you to  describe how to pay</p>
                                             <div>
                                                 <a href="index.html" type="submit" class="btn btn-primary my-button" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Go to main page</a>
                                             </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="button">
-                        <a class="btn btn-primary my-button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">I want Donate!</a>
+                        <a class="btn btn-primary my-button" data-bs-toggle="modal" href="#FormModalToggle" role="button">I want Donate!</a>
                         </div>
                     </div>
 

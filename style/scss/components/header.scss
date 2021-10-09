@@ -3,7 +3,7 @@
 header {
   background-color: #FBFBFB;
   .left-part {
-  @include flex(center, center);
+  @include flex(flex-start, center);
     flex-wrap: nowrap;
     .established {
       span {

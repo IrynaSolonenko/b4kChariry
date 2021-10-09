@@ -8,6 +8,57 @@
         }
       }
 }
+@media (min-width: 993px) {
+  header {
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu {
+          display: flex;
+          flex-direction: row;
+
+          li {
+            padding-right: 30px;
+
+            a {
+              @include lhColorFont(16px, 700, 19px, #000000);
+            }
+          }
+
+          li:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+
+      .modal-menu {
+        display: none;
+      }
+    }
+}
+@media (max-width: 992px) {
+  header {
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .menu {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 
 @media (max-width: 576px) {
   header {
