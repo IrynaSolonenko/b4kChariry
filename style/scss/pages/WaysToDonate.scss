@@ -1,0 +1,60 @@
+@import "../common/index.scss";
+@import "../components/header.scss";
+@import "../components/header-media.scss";
+@import "../pages/WaysToDonate-media.scss";
+@import "../components/footer.scss";
+@import "../components/footer-media.scss";
+
+main {
+  .container {
+    max-width: 992px;
+
+    .main {
+      .info {
+        a {
+          @include lhColorFont(14px, 700, 16px, #1027FB);
+          letter-spacing: .05em;
+          text-transform: uppercase;
+        }
+
+        span {
+          @include lhFont(14px, 400, 16px);
+          letter-spacing: .05em;
+          text-transform: capitalize;
+        }
+      }
+
+      h1 {
+        margin: 30px 0 0 0;
+        @include h1-flexible(#000000);
+        letter-spacing: .05em;
+        text-transform: capitalize;
+      }
+    }
+    .main-donate {
+      .main-donate-info {
+        p{
+          @include lhFont(18px, 400, 27px);
+          text-transform: capitalize;
+          margin: 0;
+        }
+
+        h3{
+          padding: 30px 0 20px;
+          @include lhColorFont(24px, 700, 29px, #F44823);
+          margin: 0;
+        }
+      }
+      .main-donate-info:first-child{
+        p:first-child{
+          padding-bottom: 30px;
+        }
+      }
+      h4{
+        @include lhFont(24px, 700, 36px);
+        margin: 0;
+      }
+    }
+  }
+  @extend %Get-Involved;
+}

@@ -1,0 +1,71 @@
+@media (min-width: 993px) {
+  main {
+    .main {
+      margin: 180px 0 20px;
+    }
+    .main-donate{
+      margin-bottom: 325px;
+      .main-donate-info {
+        padding: 30px 0 0;
+      }
+    }
+    .GetInvolved {
+      padding: 80px 0;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  main {
+    margin-top: 140px;
+
+    .main {
+      margin-bottom: 25px;
+    }
+
+    .main-donate {
+      margin-bottom: 200px;
+
+      .main-donate-info {
+        padding: 10px 0 0;
+      }
+
+      .GetInvolved {
+        padding: 40px 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    margin-top: 120px;
+    .main{
+      margin-bottom: 20px;
+    }
+    .main-donate{
+      margin-bottom: 100px;
+    }
+    .GetInvolved {
+      padding: 40px 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  main {
+    margin-top: 140px;
+    .main{
+      margin-bottom: 10px;
+    }
+    .main-donate{
+      margin-bottom: 80px;
+      .main-donate-info {
+        padding: 0;
+      }
+    }
+    .GetInvolved {
+      padding: 40px 30px;
+    }
+  }
+}
