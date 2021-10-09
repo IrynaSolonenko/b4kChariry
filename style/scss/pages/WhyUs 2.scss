@@ -1,0 +1,60 @@
+@import "../common/index.scss";
+@import "../components/header.scss";
+@import "../components/header-media.scss";
+@import "../pages/WhyUs-media.scss";
+@import "../components/footer.scss";
+@import "../components/footer-media.scss";
+
+main {
+  .container {
+    max-width: 992px;
+
+    .main {
+      .info {
+        a {
+          @include lhColorFont(14px, 700, 16px, #1027FB);
+          letter-spacing: .05em;
+          text-transform: uppercase;
+        }
+
+        span {
+          @include lhFont(14px, 400, 16px);
+          letter-spacing: .05em;
+          text-transform: capitalize;
+        }
+      }
+
+      h1 {
+        @include h1-flexible(#000000);
+        margin: 30px 0 0;
+        letter-spacing: .05em;
+        text-transform: capitalize;
+      }
+
+      .main-part1 {
+        @include flex(space-between, center);
+        flex-wrap: wrap;
+        margin-top: 50px;
+        .main-part1-info{
+          h3 {
+            @include h-info(#000000);
+          }
+          p {
+            @include lhFont(18px, 400, 27px);
+          }
+        }
+      }
+    }
+
+    .main-part2 {
+      h2 {
+        @include lhFont(24px, 700, 36px);
+      }
+
+      p {
+        @include lhFont(18px, 400, 27px);
+      }
+    }
+  }
+    @extend %Get-Involved;
+}

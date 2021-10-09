@@ -1,0 +1,708 @@
+main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
+  text-align: center;
+  text-transform: capitalize; }
+
+main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+  background: #E31E24;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em; }
+
+main .GetInvolved-bg {
+  background: #F5F4F4; }
+  main .GetInvolved-bg .GetInvolved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; }
+    main .GetInvolved-bg .GetInvolved h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24; }
+    main .GetInvolved-bg .GetInvolved p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      padding: 0;
+      margin: 0; }
+    main .GetInvolved-bg .GetInvolved .button .my-button {
+      transform: translatex(-50%);
+      position: relative;
+      left: 50%;
+      margin: 60px 0 0;
+      box-shadow: 0 4px 19px #F5999C;
+      display: inline-block;
+      color: white;
+      text-decoration: none; }
+
+main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
+  text-align: center;
+  text-transform: capitalize; }
+
+main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+  background: #E31E24;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em; }
+
+main .GetInvolved-bg {
+  background: #F5F4F4; }
+  main .GetInvolved-bg .GetInvolved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; }
+    main .GetInvolved-bg .GetInvolved h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24; }
+    main .GetInvolved-bg .GetInvolved p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      padding: 0;
+      margin: 0; }
+    main .GetInvolved-bg .GetInvolved .button .my-button {
+      transform: translatex(-50%);
+      position: relative;
+      left: 50%;
+      margin: 60px 0 0;
+      box-shadow: 0 4px 19px #F5999C;
+      display: inline-block;
+      color: white;
+      text-decoration: none; }
+
+header {
+  background-color: #FBFBFB; }
+  header .left-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; }
+    header .left-part .established span {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 14px;
+      color: #000000;
+      width: 170px; }
+  header .header-navigate {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none; }
+    header .header-navigate .menu .nav-col {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 19px;
+      color: black;
+      text-transform: capitalize; }
+    header .header-navigate .menu .nav-col:hover {
+      color: #767676; }
+
+@media (min-width: 577px) {
+  header .logo img {
+    Width: 267px;
+    Height: 70px; } }
+@media (max-width: 576px) {
+  header .left-part {
+    flex-wrap: nowrap;
+    justify-content: flex-start; }
+    header .left-part .logo img {
+      Width: 134px;
+      Height: 35px; }
+    header .left-part .established span {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 9px;
+      color: #000000;
+      width: 109px;
+      height: 30px; } }
+main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
+  text-align: center;
+  text-transform: capitalize; }
+
+main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+  background: #E31E24;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em; }
+
+main .GetInvolved-bg {
+  background: #F5F4F4; }
+  main .GetInvolved-bg .GetInvolved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; }
+    main .GetInvolved-bg .GetInvolved h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24; }
+    main .GetInvolved-bg .GetInvolved p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      padding: 0;
+      margin: 0; }
+    main .GetInvolved-bg .GetInvolved .button .my-button {
+      transform: translatex(-50%);
+      position: relative;
+      left: 50%;
+      margin: 60px 0 0;
+      box-shadow: 0 4px 19px #F5999C;
+      display: inline-block;
+      color: white;
+      text-decoration: none; }
+
+main .HelpForLife .sliders {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../images/image1.png");
+  background-color: rgba(223, 96, 24, 0.5);
+  background-blend-mode: multiply; }
+  main .HelpForLife .sliders .tittle {
+    text-align: start;
+    position: absolute; }
+    main .HelpForLife .sliders .tittle h1, main .HelpForLife .sliders .tittle h2 {
+      font-size: calc( (100vw - 370px)/(1440 - 370) * (64 - 36) + 36px);
+      font-weight: 700;
+      color: #fff; }
+  main .HelpForLife .sliders .button .my-button {
+    display: inline-block; }
+main .HelpForLife .carousel-indicators {
+  position: relative;
+  top: -5vh;
+  margin: 0; }
+main .HelpForLife .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  color: white;
+  margin: 0 4px; }
+main .HelpForLife .carousel-inner {
+  text-align: center; }
+main .WhatWeDo h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 57px;
+  color: #E31E24;
+  text-align: center; }
+main .WhatWeDo .WhatWeDo-info {
+  font-size: calc((100vw - 370px) / (1440 - 370) * (24 - 20) + 20px);
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  letter-spacing: 0.05em;
+  margin: 0 auto; }
+main .WhatWeDo p {
+  margin: 0 auto; }
+main .statistic {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap; }
+  main .statistic div {
+    padding: 0 30px 20px; }
+    main .statistic div h4 {
+      font-size: 36px;
+      font-weight: 700;
+      line-height: 43px; }
+main .mission {
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../images/image2.png");
+  background-color: rgba(26, 24, 24, 0.5);
+  background-blend-mode: multiply;
+  margin-top: 30px; }
+  main .mission .mission-info {
+    margin: 0 auto; }
+    main .mission .mission-info h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #fff;
+      text-align: center; }
+    main .mission .mission-info p {
+      font-size: calc((100vw - 370px) / (1440 - 370) * (24 - 20) + 20px);
+      font-weight: 700;
+      line-height: 30px;
+      color: #fff;
+      letter-spacing: 0.05em;
+      padding-top: 30px; }
+  main .mission .mission-statistic {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    main .mission .mission-statistic div {
+      padding: 0 30px 20px; }
+      main .mission .mission-statistic div h4 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+        color: #fff;
+        margin-bottom: 20px; }
+      main .mission .mission-statistic div span {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        color: #fff; }
+  main .mission .button .my-button {
+    display: inline-block;
+    transform: translatex(-50%);
+    position: relative;
+    left: 50%;
+    box-shadow: 0 4px 19px rgba(244, 72, 35, 0.4);
+    color: white;
+    text-decoration: none; }
+
+main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
+  text-align: center;
+  text-transform: capitalize; }
+
+main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+  background: #E31E24;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em; }
+
+main .GetInvolved-bg {
+  background: #F5F4F4; }
+  main .GetInvolved-bg .GetInvolved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; }
+    main .GetInvolved-bg .GetInvolved h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24; }
+    main .GetInvolved-bg .GetInvolved p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      padding: 0;
+      margin: 0; }
+    main .GetInvolved-bg .GetInvolved .button .my-button {
+      transform: translatex(-50%);
+      position: relative;
+      left: 50%;
+      margin: 60px 0 0;
+      box-shadow: 0 4px 19px #F5999C;
+      display: inline-block;
+      color: white;
+      text-decoration: none; }
+
+@media (min-width: 768px) {
+  main .HelpForLife {
+    margin-top: 35px; }
+    main .HelpForLife .sliders {
+      height: 100vh; }
+      main .HelpForLife .sliders .tittle {
+        top: 40%;
+        padding: 0 0 0 70px; }
+        main .HelpForLife .sliders .tittle h1, main .HelpForLife .sliders .tittle h2 {
+          padding: 0; }
+        main .HelpForLife .sliders .tittle p {
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 28px;
+          color: #fff;
+          padding: 5px 0; }
+  main .WhatWeDo {
+    margin-top: 30px; }
+    main .WhatWeDo .WhatWeDo-info {
+      width: 60%;
+      padding: 30px 0; }
+  main .GetInvolved {
+    padding: 80px 0; }
+  main .statistic {
+    padding-top: 100px; }
+  main .mission .mission-info {
+    width: 60%; }
+    main .mission .mission-info .mission-statistic {
+      margin-top: 60px; }
+  main .mission .button .my-button {
+    margin: 90px 0 150px; } }
+@media (max-width: 992px) {
+  main .HelpForLife .sliders {
+    height: 80vh; }
+    main .HelpForLife .sliders .tittle {
+      padding: 0;
+      width: 100%;
+      text-align: center;
+      bottom: 50%;
+      transform: translateY(50%); }
+      main .HelpForLife .sliders .tittle p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #fff;
+        padding: 0; }
+  main .GetInvolved {
+    padding: 80px 0; }
+  main .mission {
+    padding-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/image2.1.png");
+    background-color: rgba(26, 24, 24, 0.5);
+    background-blend-mode: multiply;
+    margin-top: 30px; } }
+@media (max-width: 767px) {
+  main .HelpForLife {
+    margin-top: 95px; }
+    main .HelpForLife .sliders {
+      height: 60vh; }
+      main .HelpForLife .sliders .tittle p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #fff; }
+  main .WhatWeDo {
+    margin-top: 30px; }
+    main .WhatWeDo .WhatWeDo-info {
+      width: 85%;
+      padding: 30px 0; }
+  main .statistic {
+    padding-top: 45px; }
+  main .mission .mission-info {
+    text-align: center; }
+  main .mission .button .my-button {
+    margin: 60px 0 90px; }
+  main .GetInvolved {
+    padding: 80px 0; } }
+@media (max-width: 576px) {
+  main .HelpForLife {
+    margin-top: 60px; }
+    main .HelpForLife .sliders {
+      height: 40vh; }
+      main .HelpForLife .sliders .tittle {
+        padding-bottom: 15px;
+        margin: 0 auto;
+        text-align: center; }
+        main .HelpForLife .sliders .tittle h1 {
+          margin: 0; }
+        main .HelpForLife .sliders .tittle .button {
+          padding: 7px 0 0; }
+  main .WhatWeDo {
+    margin-top: 20px; }
+    main .WhatWeDo h2 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 36px;
+      color: #E31E24; }
+    main .WhatWeDo .WhatWeDo-info {
+      width: 90%;
+      padding: 20px 0; }
+  main .mission .mission-info {
+    width: 90%; }
+    main .mission .mission-info h2 {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 30px;
+      color: #fff;
+      text-align: center; }
+    main .mission .mission-info p {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      color: #fff;
+      letter-spacing: 0.05em;
+      margin: 0 auto;
+      padding: 30px 0 0; }
+  main .mission .mission-statistic {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap; }
+    main .mission .mission-statistic div {
+      padding: 0 30px; }
+      main .mission .mission-statistic div h4 {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 43px;
+        color: #fff; }
+  main .mission .button .my-button {
+    margin: 40px 0 70px; }
+  main .mission .GetInvolved {
+    padding: 80px 0; } }
+main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
+  text-align: center;
+  text-transform: capitalize; }
+
+main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+  background: #E31E24;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.05em; }
+
+main .GetInvolved-bg {
+  background: #F5F4F4; }
+  main .GetInvolved-bg .GetInvolved {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto; }
+    main .GetInvolved-bg .GetInvolved h2 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24; }
+    main .GetInvolved-bg .GetInvolved p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      padding: 0;
+      margin: 0; }
+    main .GetInvolved-bg .GetInvolved .button .my-button {
+      transform: translatex(-50%);
+      position: relative;
+      left: 50%;
+      margin: 60px 0 0;
+      box-shadow: 0 4px 19px #F5999C;
+      display: inline-block;
+      color: white;
+      text-decoration: none; }
+
+footer .footer {
+  background-color: black; }
+  footer .footer .footer1 {
+    display: flex;
+    flex-wrap: wrap; }
+    footer .footer .footer1 .establish-info {
+      width: 200px; }
+      footer .footer .footer1 .establish-info p {
+        margin-top: 20px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 12px;
+        color: #fff; }
+    footer .footer .footer1 .navigate {
+      display: inline-flex;
+      flex-wrap: wrap; }
+      footer .footer .footer1 .navigate .footer-navigate1 ul li {
+        padding: 5px 5px 0; }
+        footer .footer .footer1 .navigate .footer-navigate1 ul li a {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 37px;
+          color: #fff;
+          text-transform: capitalize; }
+      footer .footer .footer1 .navigate .footer-navigate2 ul li {
+        padding: 5px 5px 0; }
+        footer .footer .footer1 .navigate .footer-navigate2 ul li a {
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 37px;
+          color: #fff;
+          text-transform: capitalize; }
+    footer .footer .footer1 .social-media {
+      display: inline-block;
+      float: right; }
+      footer .footer .footer1 .social-media h5 {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 37px;
+        color: #fff; }
+      footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+          position: absolute;
+          right: 20px; }
+        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+          font-size: 48px;
+          font-weight: 700;
+          line-height: 57px;
+          color: #E31E24;
+          padding-bottom: 20px; }
+        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          text-transform: capitalize; }
+        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+          padding-top: 40px; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+            margin-bottom: 5px;
+            width: 100%;
+            padding: 16px 0 16px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            color: #000000;
+            letter-spacing: 0.05em; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+            color: black; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 19px;
+            color: #000000;
+            letter-spacing: 0.05em;
+            padding: 16px 80px 135px 30px;
+            border-radius: 10px; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+            margin: 30px 0 0;
+            padding: 15px 70px;
+            box-shadow: 0 4px 19px #F5999C; }
+      footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+        margin: 30px 0 0;
+        padding: 15px 70px;
+        box-shadow: 0 4px 19px #F5999C; }
+    footer .footer .footer1 .button .my-button {
+      display: inline-block; }
+    footer .footer .footer1 .button .my-button:focus {
+      border: none;
+      box-shadow: none; }
+  footer .footer .footer2 {
+    display: flex;
+    flex-wrap: wrap; }
+    footer .footer .footer2 p {
+      padding: 0 30px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #fff; }
+    footer .footer .footer2 a {
+      padding-right: 10px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #fff; }
+
+@media (min-width: 768px) {
+  footer .footer1 {
+    padding: 45px 0 45px 30px;
+    justify-content: flex-start; }
+    footer .footer1 .establish-info {
+      margin-right: 120px; }
+      footer .footer1 .establish-info img {
+        Width: 214px;
+        Height: 89px; }
+    footer .footer1 .footer-navigate1 {
+      padding: 0 120px 0 0; }
+      footer .footer1 .footer-navigate1 ul {
+        padding: 0;
+        margin: 0; }
+    footer .footer1 .footer-navigate2 {
+      padding: 0 120px 0 0; }
+    footer .footer1 .button .my-button {
+      margin-top: 50px; }
+  footer .footer2 {
+    align-items: baseline; } }
+@media (max-width: 790px) {
+  footer .footer1 {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    footer .footer1 .establish-info {
+      margin-right: 30px; }
+    footer .footer1 .footer-navigate1 {
+      padding: 0; }
+      footer .footer1 .footer-navigate1 ul {
+        padding: 0;
+        margin: 0; }
+    footer .footer1 .footer-navigate2 {
+      padding: 0; }
+      footer .footer1 .footer-navigate2 ul {
+        padding: 0;
+        margin: 0; }
+    footer .footer1 .social-media {
+      text-align: center;
+      padding: 20px; }
+      footer .footer1 .social-media .button .my-button {
+        margin-top: 30px; }
+    footer .footer1 .footer-inf {
+      flex-direction: column-reverse;
+      display: flex; }
+      footer .footer1 .footer-inf .navigate {
+        padding-top: 30px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+  footer .footer2 {
+    align-items: baseline; } }
+@media (max-width: 576px) {
+  footer .footer1 .establish-info {
+    margin-right: 10px;
+    text-align: center; }
+    footer .footer1 .establish-info p {
+      text-align: center; }
+    footer .footer1 .establish-info img {
+      width: 153px;
+      height: 64px; }
+  footer .footer1 .footer-inf {
+    display: flex;
+    flex-direction: column-reverse; }
+    footer .footer1 .footer-inf .navigate {
+      padding-top: 30px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      footer .footer1 .footer-inf .navigate .footer-navigate1 {
+        padding: 0; }
+      footer .footer1 .footer-inf .navigate .footer-navigate2 {
+        padding: 0; }
+  footer .footer1 .button .my-button {
+    margin-top: 30px; }
+  footer .footer2 {
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center; }
+    footer .footer2 div:first-of-type {
+      padding: 20px 0; } }
+
+/*# sourceMappingURL=index.css.map */

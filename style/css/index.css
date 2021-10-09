@@ -405,6 +405,8 @@ main .GetInvolved-bg {
     padding-top: 45px; }
   main .mission .mission-info {
     text-align: center; }
+    main .mission .mission-info p {
+      width: 85%; }
   main .mission .button .my-button {
     margin: 60px 0 90px; }
   main .GetInvolved {
@@ -550,55 +552,58 @@ footer .footer {
         font-weight: 400;
         line-height: 37px;
         color: #fff; }
-      footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center; }
-        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
-          position: absolute;
-          right: 20px; }
-        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
-          font-size: 48px;
-          font-weight: 700;
-          line-height: 57px;
-          color: #E31E24;
-          padding-bottom: 20px; }
-        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
-          font-size: 18px;
-          font-weight: 400;
-          line-height: 27px;
-          text-transform: capitalize; }
-        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
-          padding-top: 40px; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
-            margin-bottom: 5px;
-            width: 100%;
-            padding: 16px 0 16px 30px;
-            border-radius: 10px;
-            font-size: 16px;
+      footer .footer .footer1 .social-media .modal-windows .modal_cont {
+        padding: 50px 0; }
+        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+            position: absolute;
+            right: 20px;
+            top: -20px; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+            font-size: 48px;
             font-weight: 700;
-            line-height: 19px;
-            color: #000000;
-            letter-spacing: 0.05em; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
-            color: black; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 19px;
-            color: #000000;
-            letter-spacing: 0.05em;
-            padding: 16px 80px 135px 30px;
-            border-radius: 10px; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
-            margin: 30px 0 0;
-            padding: 15px 70px;
-            box-shadow: 0 4px 19px #F5999C; }
-      footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
-        margin: 30px 0 0;
-        padding: 15px 70px;
-        box-shadow: 0 4px 19px #F5999C; }
+            line-height: 57px;
+            color: #E31E24;
+            padding-bottom: 20px; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27px;
+            text-transform: capitalize; }
+          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+            padding-top: 40px; }
+            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+              margin-bottom: 5px;
+              width: 100%;
+              padding: 16px 0 16px 30px;
+              border-radius: 10px;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 19px;
+              color: #000000;
+              letter-spacing: 0.05em; }
+            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+              color: black; }
+            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 19px;
+              color: #000000;
+              letter-spacing: 0.05em;
+              padding: 16px 80px 135px 30px;
+              border-radius: 10px; }
+            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+              margin: 30px 0 0;
+              padding: 15px 70px;
+              box-shadow: 0 4px 19px #F5999C; }
+        footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+          margin: 30px 0 0;
+          padding: 15px 70px;
+          box-shadow: 0 4px 19px #F5999C; }
     footer .footer .footer1 .button .my-button {
       display: inline-block; }
     footer .footer .footer1 .button .my-button:focus {
