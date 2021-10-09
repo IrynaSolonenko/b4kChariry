@@ -150,7 +150,24 @@ header {
       justify-content: space-between;
       align-items: center; }
       header .head .header .menu {
-        display: none; } }
+        display: none; }
+    header .head .modal-menu-body {
+      background-color: rgba(39, 59, 115, 0.98);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center; }
+      header .head .modal-menu-body .button_close {
+        position: absolute;
+        right: 20px;
+        top: 20px; }
+      header .head .modal-menu-body .menu_ul {
+        padding-left: 0; }
+        header .head .modal-menu-body .menu_ul li {
+          padding-bottom: 10px; }
+          header .head .modal-menu-body .menu_ul li a {
+            color: white; } }
 @media (max-width: 576px) {
   header .left-part {
     flex-wrap: nowrap;
@@ -396,8 +413,7 @@ main .GetInvolved-bg {
       padding: 0;
       width: 100%;
       text-align: center;
-      bottom: 50%;
-      transform: translateY(50%); }
+      bottom: 50%; }
       main .HelpForLife .sliders .tittle p {
         font-size: 24px;
         font-weight: 400;
@@ -417,11 +433,13 @@ main .GetInvolved-bg {
 @media (max-width: 767px) {
   main .HelpForLife .sliders {
     height: 60vh; }
-    main .HelpForLife .sliders .tittle p {
-      font-size: 24px;
-      font-weight: 400;
-      line-height: 28px;
-      color: #fff; }
+    main .HelpForLife .sliders .tittle {
+      bottom: 25%; }
+      main .HelpForLife .sliders .tittle p {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #fff; }
   main .WhatWeDo {
     margin-top: 30px; }
     main .WhatWeDo .WhatWeDo-info {
@@ -441,7 +459,6 @@ main .GetInvolved-bg {
   main .HelpForLife .sliders {
     height: 40vh; }
     main .HelpForLife .sliders .tittle {
-      padding-bottom: 15px;
       margin: 0 auto;
       text-align: center; }
       main .HelpForLife .sliders .tittle h1 {

@@ -150,7 +150,24 @@ header {
       justify-content: space-between;
       align-items: center; }
       header .head .header .menu {
-        display: none; } }
+        display: none; }
+    header .head .modal-menu-body {
+      background-color: rgba(39, 59, 115, 0.98);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center; }
+      header .head .modal-menu-body .button_close {
+        position: absolute;
+        right: 20px;
+        top: 20px; }
+      header .head .modal-menu-body .menu_ul {
+        padding-left: 0; }
+        header .head .modal-menu-body .menu_ul li {
+          padding-bottom: 10px; }
+          header .head .modal-menu-body .menu_ul li a {
+            color: white; } }
 @media (max-width: 576px) {
   header .left-part {
     flex-wrap: nowrap;

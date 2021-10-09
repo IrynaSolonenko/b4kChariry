@@ -63,7 +63,7 @@
           width: 100%;
           text-align: center;
           bottom: 50%;
-          transform: translateY(50%);
+          //transform: translateY(50%);
           p {
             @include lhColorFont(24px, 400, 28px, #fff);
             padding: 0;
@@ -93,6 +93,7 @@
       .sliders {
         height: 60vh;
         .tittle {
+          bottom: 25%;
           p {
             @include lhColorFont(24px, 400, 28px, #fff);
           }
@@ -137,7 +138,7 @@
         height: 40vh;
 
         .tittle {
-          padding-bottom: 15px;
+          //padding-bottom: 15px;
           margin: 0 auto;
           text-align: center;
           h1{
