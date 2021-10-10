@@ -1,0 +1,128 @@
+@import "../common/index";
+
+main {
+  @extend %Get-Involved;
+  .HelpForLife {
+    .sliders {
+      position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("../../images/image1.png");
+        background-color: rgba(223, 96, 24, 0.5);
+        background-blend-mode: multiply;
+      .tittle {
+        text-align: start;
+        position: absolute;
+        h1, h2 {
+          @include h1-flexible(#fff);
+        }
+      }
+      .button{
+        .my-button{
+          @extend %my-button;
+          display: inline-block;
+        }
+      }
+    }
+    .carousel-indicators {
+      position: relative;
+      top: -5vh;
+      margin: 0;
+    }
+    .carousel-indicators [data-bs-target] {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      color: white;
+      margin: 0 4px;
+    }
+    .carousel-inner {
+      text-align: center;
+    }
+  }
+  .WhatWeDo {
+    h2 {
+      @include lhColorFont(48px, 700, 57px, #E31E24);
+      text-align: center;
+    }
+    .WhatWeDo-info {
+      @include h-info-flexible(#000000);
+      letter-spacing: 0.05em;
+      margin: 0 auto;
+      @extend %align-capitalize;
+    }
+
+    p {
+      margin: 0 auto;
+      @extend %align-capitalize;
+    }
+  }
+
+  .statistic {
+    padding-top: 100px;
+    @include flex(space-evenly, center);
+    flex-wrap: wrap;
+    @extend %align-capitalize;
+
+    div {
+      padding: 0 30px 20px;
+
+      h4 {
+        @include lhFont(36px, 700, 43px);
+      }
+    }
+  }
+
+  .mission {
+      padding-top: 50px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../../images/image2.png");
+      background-color: rgba(26, 24, 24, 0.5);
+      background-blend-mode: multiply;
+      margin-top: 30px;
+    .mission-info {
+      margin: 0 auto;
+      h2 {
+        @include lhColorFont(48px, 700, 57px, #fff);
+        text-align: center;
+      }
+      p{
+        @include h-info-flexible(#fff);
+        letter-spacing: 0.05em;
+        //margin: 0 auto;
+        padding-top: 30px;
+        @extend %align-capitalize;
+      }
+    }
+    .mission-statistic {
+      @include flex(space-evenly, flex-start);
+      flex-wrap: wrap;
+      @extend %align-capitalize;
+      div{
+        padding:0 30px 20px;
+        h4{
+          @include lhColorFont(36px, 700, 43px, #fff);
+          margin-bottom: 20px;
+
+        }
+        span{
+          @include lhColorFont(18px, 400, 27px, #fff);
+
+        }
+      }
+    }
+    .button {
+      .my-button {
+        display: inline-block;
+        @extend %my-button;
+        transform: translatex(-50%);
+        position: relative;
+        left: 50%;
+        box-shadow: 0 4px 19px rgba(244, 72, 35, 0.4);
+          color: white;
+          text-decoration: none;
+      }
+    }
+  }
+}
