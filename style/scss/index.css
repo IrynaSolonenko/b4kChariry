@@ -660,21 +660,20 @@ main .mission {
   background-color: rgba(26, 24, 24, 0.5);
   background-blend-mode: multiply;
   margin-top: 30px; }
-  main .mission .mission-info {
-    margin: 0 auto; }
-    main .mission .mission-info h2 {
-      font-size: 48px;
-      font-weight: 700;
-      line-height: 57px;
-      color: #fff;
-      text-align: center; }
-    main .mission .mission-info p {
-      font-size: calc((100vw - 370px) / (1440 - 370) * (24 - 20) + 20px);
-      font-weight: 700;
-      line-height: 30px;
-      color: #fff;
-      letter-spacing: 0.05em;
-      padding-top: 30px; }
+  main .mission .mission-info h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57px;
+    color: #fff;
+    text-align: center; }
+  main .mission .mission-info p {
+    font-size: calc((100vw - 370px) / (1440 - 370) * (24 - 20) + 20px);
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    padding-top: 30px; }
   main .mission .mission-statistic {
     display: flex;
     justify-content: space-evenly;
@@ -831,6 +830,7 @@ main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife 
   main .statistic {
     padding-top: 100px; }
   main .mission .mission-info {
+    margin: 0 auto;
     width: 60%; }
     main .mission .mission-info .mission-statistic {
       margin-top: 60px; }
@@ -888,9 +888,8 @@ main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife 
   main .statistic {
     padding-top: 45px; }
   main .mission .mission-info {
+    margin: 0 auto;
     text-align: center; }
-    main .mission .mission-info p {
-      width: 85%; }
   main .mission .button .my-button {
     margin: 60px 0 90px; }
   main .GetInvolved {
@@ -918,7 +917,8 @@ main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife 
       width: 90%;
       padding: 20px 0; }
   main .mission .mission-info {
-    width: 90%; }
+    width: 90%;
+    margin: 0 auto; }
     main .mission .mission-info h2 {
       font-size: 30px;
       font-weight: 700;
@@ -931,7 +931,6 @@ main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife 
       line-height: 30px;
       color: #fff;
       letter-spacing: 0.05em;
-      margin: 0 auto;
       padding: 30px 0 0; }
   main .mission .mission-statistic {
     margin-top: 30px;
