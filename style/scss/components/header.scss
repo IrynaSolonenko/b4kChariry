@@ -22,11 +22,18 @@ header {
             .menu_link {
               @include lhColorFont(16px, 700, 19px, #000000);
               text-transform: capitalize;
+              text-decoration: none;
             }
 
             .menu_link:hover {
               color: #767676;
             }
+          }
+          .my-button{
+            display: none;
+          }
+          .menu_link2{
+            display: none;
           }
         }
       }

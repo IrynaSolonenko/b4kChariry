@@ -24,6 +24,8 @@
   align-items: $align-items;
 }
 
+// width: calc( (100vw - 370)/(1440 - 370) * (267px - 134px) + 134px);
+
 @mixin h1-flexible($color) {
   font-size: calc( (100vw - 370px)/(1440 - 370) * (64 - 36) + 36px);
   font-weight: 700;

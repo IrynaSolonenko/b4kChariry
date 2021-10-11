@@ -2,7 +2,7 @@ main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission 
   text-align: center;
   text-transform: capitalize; }
 
-main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+main .GetInvolved-bg .GetInvolved .button .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, main .HelpForLife .tittle-info .container .button .my-button, main .mission .button .my-button, footer .footer .footer1 .button .my-button {
   background: #E31E24;
   border-radius: 10px;
   padding: 21px 49px;
@@ -42,12 +42,71 @@ main .GetInvolved-bg {
       display: inline-block;
       color: white;
       text-decoration: none; }
+
+main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife .modal-windows .modal_cont, footer .footer .footer1 .social-media .modal-windows .modal_cont {
+  padding: 50px 0; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b, main .HelpForLife .modal-windows .modal_cont .modal_b, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .button_close, main .HelpForLife .modal-windows .modal_cont .modal_b .button_close, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+      position: absolute;
+      right: 20px;
+      top: -20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b h1, main .HelpForLife .modal-windows .modal_cont .modal_b h1, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24;
+      padding-bottom: 20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b p, main .HelpForLife .modal-windows .modal_cont .modal_b p, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: capitalize; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+      padding-top: 40px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+        color: black; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form textarea, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form textarea, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em;
+        padding: 16px 80px 135px 30px;
+        border-radius: 10px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+        margin: 30px 0 0;
+        padding: 21px 49px;
+        box-shadow: 0 4px 19px #F5999C;
+        -webkit-appearance: button-bevel;
+        -moz-appearance: button;
+        appearance: auto; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+    margin: 30px 0 0;
+    padding: 21px 49px;
+    box-shadow: 0 4px 19px #F5999C;
+    -webkit-appearance: button-bevel;
+    -moz-appearance: button;
+    appearance: auto; }
 
 main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
   text-align: center;
   text-transform: capitalize; }
 
-main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+main .GetInvolved-bg .GetInvolved .button .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, main .HelpForLife .tittle-info .container .button .my-button, main .mission .button .my-button, footer .footer .footer1 .button .my-button {
   background: #E31E24;
   border-radius: 10px;
   padding: 21px 49px;
@@ -87,6 +146,65 @@ main .GetInvolved-bg {
       display: inline-block;
       color: white;
       text-decoration: none; }
+
+main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife .modal-windows .modal_cont, footer .footer .footer1 .social-media .modal-windows .modal_cont {
+  padding: 50px 0; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b, main .HelpForLife .modal-windows .modal_cont .modal_b, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .button_close, main .HelpForLife .modal-windows .modal_cont .modal_b .button_close, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+      position: absolute;
+      right: 20px;
+      top: -20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b h1, main .HelpForLife .modal-windows .modal_cont .modal_b h1, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24;
+      padding-bottom: 20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b p, main .HelpForLife .modal-windows .modal_cont .modal_b p, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: capitalize; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+      padding-top: 40px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+        color: black; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form textarea, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form textarea, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em;
+        padding: 16px 80px 135px 30px;
+        border-radius: 10px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+        margin: 30px 0 0;
+        padding: 21px 49px;
+        box-shadow: 0 4px 19px #F5999C;
+        -webkit-appearance: button-bevel;
+        -moz-appearance: button;
+        appearance: auto; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+    margin: 30px 0 0;
+    padding: 21px 49px;
+    box-shadow: 0 4px 19px #F5999C;
+    -webkit-appearance: button-bevel;
+    -moz-appearance: button;
+    appearance: auto; }
 
 header .left-part {
   display: flex;
@@ -107,15 +225,20 @@ header .header_menu .menu_body .menu_list .menu_link {
   font-weight: 700;
   line-height: 19px;
   color: #000000;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  text-decoration: none; }
 header .header_menu .menu_body .menu_list .menu_link:hover {
   color: #767676; }
+header .header_menu .menu_body .my-button {
+  display: none; }
+header .header_menu .menu_body .menu_link2 {
+  display: none; }
 
 main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
   text-align: center;
   text-transform: capitalize; }
 
-main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+main .GetInvolved-bg .GetInvolved .button .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, main .HelpForLife .tittle-info .container .button .my-button, main .mission .button .my-button, footer .footer .footer1 .button .my-button {
   background: #E31E24;
   border-radius: 10px;
   padding: 21px 49px;
@@ -156,7 +279,66 @@ main .GetInvolved-bg {
       color: white;
       text-decoration: none; }
 
-@media (min-width: 783px) {
+main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife .modal-windows .modal_cont, footer .footer .footer1 .social-media .modal-windows .modal_cont {
+  padding: 50px 0; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b, main .HelpForLife .modal-windows .modal_cont .modal_b, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .button_close, main .HelpForLife .modal-windows .modal_cont .modal_b .button_close, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+      position: absolute;
+      right: 20px;
+      top: -20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b h1, main .HelpForLife .modal-windows .modal_cont .modal_b h1, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24;
+      padding-bottom: 20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b p, main .HelpForLife .modal-windows .modal_cont .modal_b p, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: capitalize; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+      padding-top: 40px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+        color: black; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form textarea, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form textarea, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em;
+        padding: 16px 80px 135px 30px;
+        border-radius: 10px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+        margin: 30px 0 0;
+        padding: 21px 49px;
+        box-shadow: 0 4px 19px #F5999C;
+        -webkit-appearance: button-bevel;
+        -moz-appearance: button;
+        appearance: auto; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+    margin: 30px 0 0;
+    padding: 21px 49px;
+    box-shadow: 0 4px 19px #F5999C;
+    -webkit-appearance: button-bevel;
+    -moz-appearance: button;
+    appearance: auto; }
+
+@media (min-width: 993px) {
   header {
     position: fixed;
     z-index: 8;
@@ -168,13 +350,8 @@ main .GetInvolved-bg {
       align-items: baseline;
       max-width: 1440px;
       margin: 0 auto;
-      padding: 0 30px;
+      padding: 10px 30px;
       min-height: 70px; }
-      header .header_container .left-part .logo img {
-        Width: 267px;
-        Height: 70px; }
-      header .header_container .left-part .established {
-        padding-left: 20px; }
     header .menu_list {
       display: flex;
       align-items: center; }
@@ -182,7 +359,24 @@ main .GetInvolved-bg {
         padding-right: 15px; }
       header .menu_list li:last-child {
         padding-right: 0; } }
-@media (max-width: 784px) {
+@media (min-width: 1100px) {
+  header .left-part .logo img {
+    Width: 267px;
+    Height: 70px; }
+  header .left-part .established {
+    padding-left: 20px; } }
+@media (max-width: 1100px) {
+  header .left-part .logo img {
+    Width: 175px;
+    Height: 50px; }
+  header .left-part .established {
+    padding-left: 15px; }
+    header .left-part .established .established span {
+      font-size: 8px;
+      font-weight: 400;
+      line-height: 9px;
+      width: 100px; } }
+@media (max-width: 992px) {
   header {
     position: fixed;
     z-index: 8;
@@ -191,7 +385,7 @@ main .GetInvolved-bg {
     header .header_container {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
+      align-items: center;
       padding: 10px 30px; }
       header .header_container .left-part .logo img {
         Width: 170px;
@@ -246,15 +440,45 @@ main .GetInvolved-bg {
           text-align: center;
           padding: 0; }
           header .header_container .header_menu .menu_body .menu_list li {
-            position: relative; }
+            position: relative;
+            padding: 10px 0; }
             header .header_container .header_menu .menu_body .menu_list li .menu_link {
+              border-bottom: 1px solid white;
               font-size: 22px;
               font-weight: 700;
               line-height: 36px;
               color: #fff; }
       header .header_container .header_menu .menu_body._active {
         z-index: 20;
-        left: 0; } }
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; }
+        header .header_container .header_menu .menu_body._active .my-button {
+          display: block;
+          background: #E31E24;
+          border-radius: 10px;
+          padding: 21px 49px;
+          border: none;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 19px;
+          color: #fff;
+          text-decoration: none;
+          letter-spacing: 0.05em;
+          margin: 30px 0 0;
+          -webkit-appearance: button-bevel;
+          -moz-appearance: button;
+          appearance: auto; }
+        header .header_container .header_menu .menu_body._active .menu_link2 {
+          display: block; }
+          header .header_container .header_menu .menu_body._active .menu_link2 a {
+            padding-right: 10px;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #fff; } }
 @media (max-width: 576px) {
   header .header_container .left-part .logo img {
     width: 134px;
@@ -263,13 +487,12 @@ main .GetInvolved-bg {
     font-size: 8px;
     font-weight: 400;
     line-height: 9px;
-    width: 100px;
-    padding-left: 15px; } }
+    width: 100px; } }
 main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission .mission-info p, main .mission .mission-statistic, footer .footer .footer2 p {
   text-align: center;
   text-transform: capitalize; }
 
-main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+main .GetInvolved-bg .GetInvolved .button .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, main .HelpForLife .tittle-info .container .button .my-button, main .mission .button .my-button, footer .footer .footer1 .button .my-button {
   background: #E31E24;
   border-radius: 10px;
   padding: 21px 49px;
@@ -310,34 +533,98 @@ main .GetInvolved-bg {
       color: white;
       text-decoration: none; }
 
-main .HelpForLife .sliders {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../images/image1.png");
-  background-color: rgba(223, 96, 24, 0.5);
-  background-blend-mode: multiply; }
-  main .HelpForLife .sliders .tittle {
-    text-align: start;
-    position: absolute; }
-    main .HelpForLife .sliders .tittle h1, main .HelpForLife .sliders .tittle h2 {
-      font-size: calc( (100vw - 370px)/(1440 - 370) * (64 - 36) + 36px);
+main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife .modal-windows .modal_cont, footer .footer .footer1 .social-media .modal-windows .modal_cont {
+  padding: 50px 0; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b, main .HelpForLife .modal-windows .modal_cont .modal_b, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .button_close, main .HelpForLife .modal-windows .modal_cont .modal_b .button_close, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+      position: absolute;
+      right: 20px;
+      top: -20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b h1, main .HelpForLife .modal-windows .modal_cont .modal_b h1, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+      font-size: 48px;
       font-weight: 700;
-      color: #fff; }
-  main .HelpForLife .sliders .button .my-button {
-    display: inline-block; }
-main .HelpForLife .carousel-indicators {
-  position: relative;
-  top: -5vh;
-  margin: 0; }
-main .HelpForLife .carousel-indicators [data-bs-target] {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  color: white;
-  margin: 0 4px; }
-main .HelpForLife .carousel-inner {
-  text-align: center; }
+      line-height: 57px;
+      color: #E31E24;
+      padding-bottom: 20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b p, main .HelpForLife .modal-windows .modal_cont .modal_b p, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: capitalize; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+      padding-top: 40px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+        color: black; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form textarea, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form textarea, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em;
+        padding: 16px 80px 135px 30px;
+        border-radius: 10px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+        margin: 30px 0 0;
+        padding: 21px 49px;
+        box-shadow: 0 4px 19px #F5999C;
+        -webkit-appearance: button-bevel;
+        -moz-appearance: button;
+        appearance: auto; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+    margin: 30px 0 0;
+    padding: 21px 49px;
+    box-shadow: 0 4px 19px #F5999C;
+    -webkit-appearance: button-bevel;
+    -moz-appearance: button;
+    appearance: auto; }
+
+main .HelpForLife {
+  padding-top: 90px; }
+  main .HelpForLife .sliders {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/image1.png");
+    background-color: rgba(223, 96, 24, 0.5);
+    background-blend-mode: multiply; }
+  main .HelpForLife .carousel-indicators {
+    position: relative;
+    top: -5vh;
+    margin: 0; }
+  main .HelpForLife .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color: white;
+    margin: 0 4px; }
+  main .HelpForLife .carousel-inner {
+    text-align: center; }
+  main .HelpForLife .tittle-info {
+    position: absolute;
+    top: 0;
+    z-index: 5; }
+    main .HelpForLife .tittle-info .container .tittle {
+      text-align: start; }
+      main .HelpForLife .tittle-info .container .tittle h1, main .HelpForLife .tittle-info .container .tittle h2 {
+        font-size: calc( (100vw - 370px)/(1440 - 370) * (64 - 36) + 36px);
+        font-weight: 700;
+        color: #fff; }
+    main .HelpForLife .tittle-info .container .button .my-button {
+      display: inline-block; }
 main .WhatWeDo h2 {
   font-size: 48px;
   font-weight: 700;
@@ -419,7 +706,7 @@ main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission 
   text-align: center;
   text-transform: capitalize; }
 
-main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+main .GetInvolved-bg .GetInvolved .button .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, main .HelpForLife .tittle-info .container .button .my-button, main .mission .button .my-button, footer .footer .footer1 .button .my-button {
   background: #E31E24;
   border-radius: 10px;
   padding: 21px 49px;
@@ -460,20 +747,80 @@ main .GetInvolved-bg {
       color: white;
       text-decoration: none; }
 
+main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife .modal-windows .modal_cont, footer .footer .footer1 .social-media .modal-windows .modal_cont {
+  padding: 50px 0; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b, main .HelpForLife .modal-windows .modal_cont .modal_b, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .button_close, main .HelpForLife .modal-windows .modal_cont .modal_b .button_close, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+      position: absolute;
+      right: 20px;
+      top: -20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b h1, main .HelpForLife .modal-windows .modal_cont .modal_b h1, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24;
+      padding-bottom: 20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b p, main .HelpForLife .modal-windows .modal_cont .modal_b p, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: capitalize; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+      padding-top: 40px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+        color: black; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form textarea, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form textarea, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em;
+        padding: 16px 80px 135px 30px;
+        border-radius: 10px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+        margin: 30px 0 0;
+        padding: 21px 49px;
+        box-shadow: 0 4px 19px #F5999C;
+        -webkit-appearance: button-bevel;
+        -moz-appearance: button;
+        appearance: auto; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+    margin: 30px 0 0;
+    padding: 21px 49px;
+    box-shadow: 0 4px 19px #F5999C;
+    -webkit-appearance: button-bevel;
+    -moz-appearance: button;
+    appearance: auto; }
+
 @media (min-width: 768px) {
   main .HelpForLife .sliders {
     height: 100vh; }
-    main .HelpForLife .sliders .tittle {
-      top: 40%;
-      padding: 0 0 0 70px; }
-      main .HelpForLife .sliders .tittle h1, main .HelpForLife .sliders .tittle h2 {
-        padding: 0; }
-      main .HelpForLife .sliders .tittle p {
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28px;
-        color: #fff;
-        padding: 5px 0; }
+  main .HelpForLife .tittle-info {
+    top: 40%;
+    width: 100%;
+    display: block; }
+    main .HelpForLife .tittle-info .tittle h1, main .HelpForLife .tittle-info .tittle h2 {
+      padding: 0; }
+    main .HelpForLife .tittle-info .tittle p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #fff;
+      padding: 5px 0; }
   main .WhatWeDo {
     margin-top: 30px; }
     main .WhatWeDo .WhatWeDo-info {
@@ -490,19 +837,28 @@ main .GetInvolved-bg {
   main .mission .button .my-button {
     margin: 90px 0 150px; } }
 @media (max-width: 992px) {
-  main .HelpForLife .sliders {
-    height: 80vh; }
-    main .HelpForLife .sliders .tittle {
-      padding: 0;
+  main .HelpForLife {
+    padding-top: 70px; }
+    main .HelpForLife .sliders {
+      height: 80vh; }
+    main .HelpForLife .tittle-info {
       width: 100%;
-      text-align: center;
-      bottom: 50%; }
-      main .HelpForLife .sliders .tittle p {
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28px;
-        color: #fff;
+      top: 40vh;
+      left: 50%;
+      transform: translateX(-51%); }
+      main .HelpForLife .tittle-info .container {
+        margin: 0 auto;
         padding: 0; }
+        main .HelpForLife .tittle-info .container .tittle {
+          padding: 0;
+          width: 100%;
+          text-align: center; }
+          main .HelpForLife .tittle-info .container .tittle p {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #fff;
+            padding: 0; }
   main .GetInvolved {
     padding: 80px 0; }
   main .mission {
@@ -516,13 +872,14 @@ main .GetInvolved-bg {
 @media (max-width: 767px) {
   main .HelpForLife .sliders {
     height: 60vh; }
-    main .HelpForLife .sliders .tittle {
-      bottom: 25%; }
-      main .HelpForLife .sliders .tittle p {
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 28px;
-        color: #fff; }
+  main .HelpForLife .tittle-info {
+    width: 100%;
+    top: 25%; }
+    main .HelpForLife .tittle-info .tittle p {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      color: #fff; }
   main .WhatWeDo {
     margin-top: 30px; }
     main .WhatWeDo .WhatWeDo-info {
@@ -541,12 +898,14 @@ main .GetInvolved-bg {
 @media (max-width: 576px) {
   main .HelpForLife .sliders {
     height: 40vh; }
-    main .HelpForLife .sliders .tittle {
+  main .HelpForLife .tittle-info {
+    top: 13%; }
+    main .HelpForLife .tittle-info .tittle {
       margin: 0 auto;
       text-align: center; }
-      main .HelpForLife .sliders .tittle h1 {
+      main .HelpForLife .tittle-info .tittle h1 {
         margin: 0; }
-      main .HelpForLife .sliders .tittle .button {
+      main .HelpForLife .tittle-info .tittle .button {
         padding: 7px 0 0; }
   main .WhatWeDo {
     margin-top: 20px; }
@@ -595,7 +954,7 @@ main .WhatWeDo .WhatWeDo-info, main .WhatWeDo p, main .statistic, main .mission 
   text-align: center;
   text-transform: capitalize; }
 
-main .GetInvolved-bg .GetInvolved .button .my-button, main .HelpForLife .sliders .button .my-button, main .mission .button .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, footer .footer .footer1 .button .my-button {
+main .GetInvolved-bg .GetInvolved .button .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button, main .HelpForLife .tittle-info .container .button .my-button, main .mission .button .my-button, footer .footer .footer1 .button .my-button {
   background: #E31E24;
   border-radius: 10px;
   padding: 21px 49px;
@@ -635,6 +994,65 @@ main .GetInvolved-bg {
       display: inline-block;
       color: white;
       text-decoration: none; }
+
+main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont, main .HelpForLife .modal-windows .modal_cont, footer .footer .footer1 .social-media .modal-windows .modal_cont {
+  padding: 50px 0; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b, main .HelpForLife .modal-windows .modal_cont .modal_b, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .button_close, main .HelpForLife .modal-windows .modal_cont .modal_b .button_close, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
+      position: absolute;
+      right: 20px;
+      top: -20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b h1, main .HelpForLife .modal-windows .modal_cont .modal_b h1, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57px;
+      color: #E31E24;
+      padding-bottom: 20px; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b p, main .HelpForLife .modal-windows .modal_cont .modal_b p, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-transform: capitalize; }
+    main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
+      padding-top: 40px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
+        margin-bottom: 5px;
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"], footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
+        color: black; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form textarea, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form textarea, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
+        letter-spacing: 0.05em;
+        padding: 16px 80px 135px 30px;
+        border-radius: 10px; }
+      main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .modal_b .info-form form .my-button, main .HelpForLife .modal-windows .modal_cont .modal_b .info-form form .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
+        margin: 30px 0 0;
+        padding: 21px 49px;
+        box-shadow: 0 4px 19px #F5999C;
+        -webkit-appearance: button-bevel;
+        -moz-appearance: button;
+        appearance: auto; }
+  main .GetInvolved-bg .GetInvolved .modal-windows .modal_cont .my-button, main .HelpForLife .modal-windows .modal_cont .my-button, footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
+    margin: 30px 0 0;
+    padding: 21px 49px;
+    box-shadow: 0 4px 19px #F5999C;
+    -webkit-appearance: button-bevel;
+    -moz-appearance: button;
+    appearance: auto; }
 
 footer .footer {
   background-color: black; }
@@ -676,64 +1094,6 @@ footer .footer {
         font-weight: 400;
         line-height: 37px;
         color: #fff; }
-      footer .footer .footer1 .social-media .modal-windows .modal_cont {
-        padding: 50px 0; }
-        footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .button_close {
-            position: absolute;
-            right: 20px;
-            top: -20px; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b h1 {
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 57px;
-            color: #E31E24;
-            padding-bottom: 20px; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b p {
-            font-size: 18px;
-            font-weight: 400;
-            line-height: 27px;
-            text-transform: capitalize; }
-          footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form {
-            padding-top: 40px; }
-            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input {
-              margin-bottom: 5px;
-              width: 100%;
-              padding: 16px 0 16px 30px;
-              border-radius: 10px;
-              font-size: 16px;
-              font-weight: 700;
-              line-height: 19px;
-              color: #000000;
-              letter-spacing: 0.05em; }
-            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .input input[placeholder="Your phone"] {
-              color: black; }
-            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form textarea {
-              font-size: 16px;
-              font-weight: 700;
-              line-height: 19px;
-              color: #000000;
-              letter-spacing: 0.05em;
-              padding: 16px 80px 135px 30px;
-              border-radius: 10px; }
-            footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
-              margin: 30px 0 0;
-              padding: 15px 70px;
-              box-shadow: 0 4px 19px #F5999C;
-              -webkit-appearance: button-bevel;
-              -moz-appearance: button;
-              appearance: auto; }
-        footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
-          margin: 30px 0 0;
-          padding: 15px 70px;
-          box-shadow: 0 4px 19px #F5999C;
-          -webkit-appearance: button-bevel;
-          -moz-appearance: button;
-          appearance: auto; }
     footer .footer .footer1 .button .my-button {
       display: inline-block; }
     footer .footer .footer1 .button .my-button:focus {

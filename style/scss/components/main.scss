@@ -3,32 +3,23 @@
 main {
   @extend %Get-Involved;
   .HelpForLife {
+    padding-top: 90px;
+
     .sliders {
       position: relative;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url("../../images/image1.png");
-        background-color: rgba(223, 96, 24, 0.5);
-        background-blend-mode: multiply;
-      .tittle {
-        text-align: start;
-        position: absolute;
-        h1, h2 {
-          @include h1-flexible(#fff);
-        }
-      }
-      .button{
-        .my-button{
-          @extend %my-button;
-          display: inline-block;
-        }
-      }
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../../images/image1.png");
+      background-color: rgba(223, 96, 24, 0.5);
+      background-blend-mode: multiply;
     }
+
     .carousel-indicators {
       position: relative;
       top: -5vh;
       margin: 0;
     }
+
     .carousel-indicators [data-bs-target] {
       width: 8px;
       height: 8px;
@@ -36,9 +27,35 @@ main {
       color: white;
       margin: 0 4px;
     }
+
     .carousel-inner {
       text-align: center;
     }
+
+    .tittle-info {
+      position: absolute;
+      top: 0;
+      z-index: 5;
+      .container {
+        .tittle {
+          text-align: start;
+
+
+          h1, h2 {
+            @include h1-flexible(#fff);
+          }
+        }
+
+
+        .button {
+          .my-button {
+            @extend %my-button;
+            display: inline-block;
+          }
+        }
+      }
+    }
+    @extend %modal-donate-form;
   }
   .WhatWeDo {
     h2 {

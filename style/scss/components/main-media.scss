@@ -5,10 +5,12 @@
     .HelpForLife {
       .sliders {
         height: 100vh;
+      }
+      .tittle-info {
+        top: 40%;
+        width: 100%;
+        display: block;
         .tittle {
-          top: 40%;
-          padding: 0 0 0 70px;
-
           h1, h2 {
             padding: 0;
           }
@@ -56,17 +58,31 @@
 @media (max-width: 992px) {
   main {
     .HelpForLife {
+      padding-top: 70px;
+
       .sliders {
         height: 80vh;
-        .tittle {
+      }
+
+      .tittle-info {
+        width: 100%;
+        top: 40vh;
+
+        left: 50%;
+        transform: translateX(-51%);
+        .container {
+          margin: 0 auto;
           padding: 0;
-          width: 100%;
-          text-align: center;
-          bottom: 50%;
-          //transform: translateY(50%);
-          p {
-            @include lhColorFont(24px, 400, 28px, #fff);
+
+          .tittle {
             padding: 0;
+            width: 100%;
+            text-align: center;
+
+            p {
+              @include lhColorFont(24px, 400, 28px, #fff);
+              padding: 0;
+            }
           }
         }
       }
@@ -92,8 +108,12 @@
     .HelpForLife {
       .sliders {
         height: 60vh;
+      }
+
+      .tittle-info {
+        width: 100%;
+        top: 25%;
         .tittle {
-          bottom: 25%;
           p {
             @include lhColorFont(24px, 400, 28px, #fff);
           }
@@ -136,21 +156,23 @@
     .HelpForLife {
       .sliders {
         height: 40vh;
+      }
+        .tittle-info {
+          top: 13%;
+          .tittle {
+            margin: 0 auto;
+            text-align: center;
 
-        .tittle {
-          //padding-bottom: 15px;
-          margin: 0 auto;
-          text-align: center;
-          h1{
-            margin: 0;
-          }
-          .button{
-            padding: 7px 0 0;
+            h1 {
+              margin: 0;
+            }
+
+            .button {
+              padding: 7px 0 0;
+            }
           }
         }
-      }
     }
-
     .WhatWeDo {
       margin-top: 20px;
       h2 {
