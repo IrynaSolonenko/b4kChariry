@@ -723,11 +723,17 @@ footer .footer {
             footer .footer .footer1 .social-media .modal-windows .modal_cont .modal_b .info-form form .my-button {
               margin: 30px 0 0;
               padding: 15px 70px;
-              box-shadow: 0 4px 19px #F5999C; }
+              box-shadow: 0 4px 19px #F5999C;
+              -webkit-appearance: button-bevel;
+              -moz-appearance: button;
+              appearance: auto; }
         footer .footer .footer1 .social-media .modal-windows .modal_cont .my-button {
           margin: 30px 0 0;
           padding: 15px 70px;
-          box-shadow: 0 4px 19px #F5999C; }
+          box-shadow: 0 4px 19px #F5999C;
+          -webkit-appearance: button-bevel;
+          -moz-appearance: button;
+          appearance: auto; }
     footer .footer .footer1 .button .my-button {
       display: inline-block; }
     footer .footer .footer1 .button .my-button:focus {
